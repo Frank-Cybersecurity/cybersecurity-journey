@@ -1,1 +1,450 @@
+# CISSP Domain 1: Security and Risk Management
 
+## Domain Overview
+
+Security and Risk Management establishes the managerial, ethical, legal, governance, and risk-based foundation of an information security program. It teaches security professionals how to protect an organization by aligning security decisions with its mission, business objectives, legal responsibilities, and acceptable level of risk.
+
+The main lesson of Domain 1 is that cybersecurity is not only a technical function. Security exists to support the organization, protect its people and assets, maintain business operations, meet legal and contractual obligations, and enable informed business decisions.
+
+A CISSP must think like a security leader. This means evaluating the business impact of a decision, communicating risk to stakeholders, selecting appropriate controls, and ensuring that security resources are used where they provide the greatest organizational value.
+
+---
+
+## 1. Professional Ethics
+
+Security professionals are trusted with sensitive information, privileged access, investigative authority, and decisions that can affect people and organizations. They must act honestly, responsibly, legally, and in the public interest.
+
+The ISC2 Code of Professional Ethics requires CISSP professionals to:
+
+1. Protect society, the common good, public trust, and critical infrastructure.
+2. Act honorably, honestly, justly, responsibly, and legally.
+3. Provide diligent and competent service to their employers and clients.
+4. Advance and protect the cybersecurity profession.
+
+When ethical duties appear to conflict, protecting society and the public interest takes priority.
+
+Organizations may also establish their own codes of ethics. Employees must understand and follow both professional ethical obligations and organizational standards of conduct.
+
+---
+
+## 2. Fundamental Security Concepts
+
+Domain 1 introduces five essential information security principles:
+
+### Confidentiality
+
+Confidentiality ensures that information is accessible only to authorized individuals, systems, or processes.
+
+Examples of confidentiality controls include:
+
+* Encryption
+* Access control
+* Data classification
+* Authentication
+* Least privilege
+
+### Integrity
+
+Integrity protects information from unauthorized or accidental modification, destruction, or corruption. Information must remain accurate, complete, and trustworthy.
+
+Examples of integrity controls include:
+
+* Hashing
+* Digital signatures
+* File integrity monitoring
+* Change control
+* Audit logging
+
+### Availability
+
+Availability ensures that authorized users can access information, systems, and services when required.
+
+Examples of availability controls include:
+
+* Redundant systems
+* Backups
+* Fault tolerance
+* Disaster recovery
+* Denial-of-service protection
+
+### Authenticity
+
+Authenticity confirms that a person, system, message, or data source is genuine.
+
+Examples include:
+
+* Digital certificates
+* Multifactor authentication
+* Digital signatures
+* Identity verification
+
+### Nonrepudiation
+
+Nonrepudiation provides evidence that an action or transaction occurred and prevents someone from credibly denying their involvement.
+
+Digital signatures, timestamps, transaction logs, and audit records can support nonrepudiation.
+
+---
+
+## 3. Security Governance
+
+Security governance establishes how an organization directs, manages, and oversees its information security program.
+
+An effective security program must align with the organization’s:
+
+* Mission
+* Business strategy
+* Goals and objectives
+* Risk appetite
+* Legal and regulatory obligations
+* Stakeholder expectations
+
+Senior management is ultimately accountable for organizational risk. Security professionals identify, analyze, explain, and help manage risk, but business leaders decide whether significant risks should be accepted.
+
+Governance also defines organizational roles and responsibilities, reporting structures, decision-making authority, accountability, and oversight.
+
+Common governance and control frameworks include:
+
+* NIST Cybersecurity Framework
+* NIST Risk Management Framework
+* ISO/IEC 27001
+* COBIT
+* SABSA
+* PCI DSS
+* FedRAMP
+
+### Due Care and Due Diligence
+
+**Due care** means taking reasonable actions to protect the organization and its assets.
+
+**Due diligence** means continually investigating, monitoring, assessing, and verifying that the organization’s protections remain appropriate and effective.
+
+A useful distinction is:
+
+> Due care is doing the right thing. Due diligence is proving and continually checking that the right thing is being done.
+
+---
+
+## 4. Legal, Regulatory, Privacy, and Compliance Requirements
+
+Organizations must comply with the laws, regulations, contracts, and industry standards that apply to their operations and information.
+
+Security professionals should understand issues involving:
+
+* Cybercrime
+* Data breaches
+* Privacy
+* Intellectual property
+* Licensing
+* Import and export restrictions
+* Cross-border data transfers
+* Contracts
+* Industry regulations
+* Evidence handling
+* Regulatory reporting
+
+Legal requirements vary according to jurisdiction, industry, data type, customer agreements, and where information is collected, processed, transmitted, or stored.
+
+Privacy focuses on the proper collection, use, processing, retention, sharing, and disposal of personal information. Organizations should collect only the information they legitimately need and protect it throughout its lifecycle.
+
+Security professionals should work with legal counsel rather than independently interpreting complex legal requirements.
+
+---
+
+## 5. Investigation Types
+
+Different investigations have different standards, authorities, objectives, and evidence requirements.
+
+Common investigation types include:
+
+* Administrative investigations
+* Criminal investigations
+* Civil investigations
+* Regulatory investigations
+* Industry-standard investigations
+
+Before beginning an investigation, the organization should determine who has authority, what evidence may be collected, which legal standards apply, and how evidence must be preserved.
+
+Evidence should be handled carefully to maintain its integrity, reliability, authenticity, and chain of custody.
+
+---
+
+## 6. Security Documentation
+
+A security program is supported by an organized documentation hierarchy.
+
+### Policies
+
+Policies are high-level management statements that define mandatory expectations and organizational direction.
+
+### Standards
+
+Standards establish specific mandatory requirements that support policies.
+
+### Procedures
+
+Procedures provide detailed, step-by-step instructions for completing tasks.
+
+### Guidelines
+
+Guidelines provide recommended practices. They are generally flexible rather than mandatory.
+
+A simple way to remember the hierarchy is:
+
+> Policy states what must be achieved, standards define required rules, procedures explain how to perform the work, and guidelines recommend good practices.
+
+Documentation should be approved, communicated, reviewed regularly, updated when conditions change, and enforced consistently.
+
+---
+
+## 7. Business Continuity
+
+Business continuity ensures that critical business functions can continue during and after a disruption.
+
+The Business Impact Analysis identifies:
+
+* Critical business processes
+* Dependencies
+* Required resources
+* Financial and operational impacts
+* Maximum acceptable downtime
+* Recovery priorities
+* Recovery time requirements
+* Recovery point requirements
+
+Important recovery measurements include:
+
+* **Maximum Tolerable Downtime:** The longest period a process can remain unavailable before the impact becomes unacceptable.
+* **Recovery Time Objective:** The targeted amount of time for restoring a service or business process.
+* **Recovery Point Objective:** The maximum acceptable amount of data loss measured in time.
+* **Work Recovery Time:** The time required to verify systems, restore operations, and resume normal business activities after technology is recovered.
+
+Business continuity planning should consider personnel, facilities, technology, communications, suppliers, utilities, cloud providers, and other external dependencies.
+
+---
+
+## 8. Personnel Security
+
+People can introduce security risk intentionally or accidentally. Personnel security controls help manage that risk throughout the employment lifecycle.
+
+These controls may include:
+
+* Background screening
+* Employment agreements
+* Confidentiality agreements
+* Acceptable-use requirements
+* Security awareness training
+* Separation of duties
+* Least privilege
+* Job rotation
+* Mandatory vacations
+* Access reviews
+* Transfer procedures
+* Termination procedures
+
+Access must be updated promptly when an employee changes roles or leaves the organization.
+
+Third-party personnel, contractors, consultants, and vendors should be subject to appropriate security requirements and oversight.
+
+---
+
+## 9. Risk Management
+
+Risk management is the process of identifying, analyzing, evaluating, treating, monitoring, and communicating uncertainty that could affect organizational objectives.
+
+### Core Risk Terms
+
+* **Asset:** Something the organization values.
+* **Threat:** A potential cause of harm.
+* **Threat actor:** A person, group, organization, or event capable of causing harm.
+* **Vulnerability:** A weakness that could be exploited.
+* **Likelihood:** The probability that a risk event will occur.
+* **Impact:** The harm that would result.
+* **Risk:** The potential for a threat to exploit a vulnerability and negatively affect the organization.
+* **Control:** A safeguard used to modify risk.
+* **Residual risk:** Risk remaining after controls are applied.
+* **Risk appetite:** The general amount and type of risk an organization is willing to pursue or retain.
+* **Risk tolerance:** The acceptable variation around a specific objective or risk level.
+
+### Risk Assessment
+
+A risk assessment generally includes:
+
+1. Identifying assets.
+2. Identifying threats.
+3. Identifying vulnerabilities.
+4. Evaluating existing controls.
+5. Estimating likelihood.
+6. Estimating business impact.
+7. Determining the level of risk.
+8. Prioritizing risk treatment.
+
+Risk analysis may be:
+
+* **Qualitative:** Uses descriptive ratings such as low, medium, and high.
+* **Quantitative:** Uses numerical values to estimate financial loss and probability.
+* **Hybrid:** Combines qualitative judgment with quantitative data.
+
+### Quantitative Risk Terms
+
+* **Asset Value:** The financial or business value of an asset.
+* **Exposure Factor:** The percentage of asset value expected to be lost during an incident.
+* **Single Loss Expectancy:** The estimated loss from one event.
+* **Annualized Rate of Occurrence:** The estimated number of times an event may happen annually.
+* **Annualized Loss Expectancy:** The estimated annual financial loss associated with a risk.
+
+The common formulas are:
+
+```text
+SLE = Asset Value × Exposure Factor
+ALE = Single Loss Expectancy × Annualized Rate of Occurrence
+```
+
+### Risk Treatment Options
+
+Organizations generally respond to risk through:
+
+* **Avoidance:** Stop the activity creating the risk.
+* **Mitigation:** Apply controls to reduce likelihood or impact.
+* **Transfer:** Shift part of the financial or operational risk to another party.
+* **Acceptance:** Formally acknowledge and retain the risk.
+* **Deterrence:** Discourage a threat actor from taking harmful action.
+
+Risk acceptance must be approved by someone with the appropriate business authority. A security analyst may recommend acceptance, but the accountable business owner generally makes the final decision.
+
+Risk management is continuous. Risks and controls must be monitored, reassessed, measured, reported, and improved as business conditions and threats change.
+
+---
+
+## 10. Security Controls
+
+Controls may be grouped according to how they are implemented.
+
+### Control Categories
+
+* **Administrative controls:** Policies, governance, training, and management processes.
+* **Technical controls:** Security mechanisms implemented through hardware or software.
+* **Physical controls:** Measures that protect facilities, equipment, and people.
+
+Controls may also be classified by their function:
+
+* **Preventive:** Stop an incident from occurring.
+* **Detective:** Identify an incident or unwanted activity.
+* **Corrective:** Fix a condition after it is detected.
+* **Deterrent:** Discourage unwanted activity.
+* **Compensating:** Provide an alternative when the preferred control is unavailable.
+* **Recovery:** Restore systems and operations.
+* **Directive:** Tell people what actions are required.
+
+Controls should be selected according to business requirements, risk, effectiveness, cost, legal obligations, and operational impact.
+
+---
+
+## 11. Threat Modeling
+
+Threat modeling is a structured process for identifying potential threats, attack paths, weaknesses, and appropriate controls before or during system development.
+
+A basic threat-modeling process includes:
+
+1. Define the system and security objectives.
+2. Identify assets and trust boundaries.
+3. Create architecture and data-flow diagrams.
+4. Identify potential threats.
+5. Analyze and prioritize those threats.
+6. Select mitigations.
+7. Validate the mitigations.
+8. Review the model when the system changes.
+
+Threat modeling supports secure design by addressing security risks early, when they are usually less expensive and easier to correct.
+
+---
+
+## 12. Supply Chain Risk Management
+
+Organizations depend on vendors, software developers, cloud providers, hardware manufacturers, contractors, and other third parties. Each dependency may introduce additional risk.
+
+Supply chain risks may include:
+
+* Counterfeit components
+* Malicious implants
+* Product tampering
+* Vulnerable software
+* Compromised updates
+* Insecure vendor access
+* Fourth-party dependencies
+* Service outages
+* Data exposure
+* Vendor concentration risk
+
+Supply chain controls may include:
+
+* Vendor risk assessments
+* Contractual security requirements
+* Service-level agreements
+* Right-to-audit clauses
+* Background checks
+* Continuous vendor monitoring
+* Secure development requirements
+* Software bills of materials
+* Code signing
+* Trusted hardware components
+* Incident-notification requirements
+* Exit and transition plans
+
+Third-party responsibility does not eliminate the organization’s accountability for protecting its information and operations.
+
+---
+
+## 13. Security Awareness, Education, and Training
+
+Security awareness programs help people recognize threats and make safer decisions.
+
+A complete program should address:
+
+* Phishing
+* Social engineering
+* Password and authentication security
+* Data handling
+* Remote work
+* Physical security
+* Insider threats
+* Incident reporting
+* Privacy responsibilities
+* Emerging technologies and threats
+
+These three concepts have different purposes:
+
+* **Awareness** changes attitudes and keeps security visible.
+* **Training** teaches skills needed to perform a task securely.
+* **Education** develops deeper knowledge and professional understanding.
+
+Program effectiveness should be measured through indicators such as phishing-reporting rates, simulated-phishing results, incident trends, training completion, knowledge assessments, and employee behavior.
+
+Training content should be reviewed and updated as technologies, threats, regulations, and business processes change.
+
+---
+
+## CISSP Management Perspective
+
+Domain 1 requires candidates to think beyond individual technical solutions.
+
+For exam questions, remember these principles:
+
+* Protect human life and safety first.
+* Act ethically and legally.
+* Understand the business before selecting a solution.
+* Identify and assess risk before implementing controls.
+* Align security with organizational objectives.
+* Use policy and governance to establish direction.
+* Prefer long-term, repeatable processes over isolated technical fixes.
+* Communicate risk in business terms.
+* Obtain management approval for major risk decisions.
+* Select controls that are proportionate to the risk.
+* Document decisions and maintain accountability.
+* Continually monitor and improve the security program.
+
+## Final Summary
+
+Domain 1 teaches that information security is a business and risk-management function supported by technology. A CISSP must understand ethics, governance, legal obligations, policies, business continuity, personnel security, threat modeling, supply chain risk, security awareness, and the complete risk-management lifecycle.
+
+The goal is not to eliminate every risk. The goal is to understand risk, communicate it clearly, apply cost-effective controls, and help leadership make informed decisions that protect the organization while allowing it to achieve its mission.
